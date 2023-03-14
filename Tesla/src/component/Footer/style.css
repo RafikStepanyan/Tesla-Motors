@@ -1,0 +1,34 @@
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer a {
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    text-decoration: underline rgb(77, 77, 77);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:900px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .homebuttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .absolute {
+        display: none;
+    }
+}

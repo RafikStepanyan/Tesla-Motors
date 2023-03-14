@@ -1,0 +1,41 @@
+.login {
+    height: 90vh;
+    display: grid;
+    place-content: center;
+}
+
+.login form {
+    width: 300px;
+    display: grid;
+    gap: 5px;
+}
+
+.login input {
+    border-radius: 5px;
+    padding-left: 5px;
+    border: none;
+    height: 40px;
+    background: #d8d8d8;
+}
+
+.login input:focus {
+    border: 2px solid gray;
+}
+
+.login button {
+    font-size: 18px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #3E6AE1;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    transition: 0.5s;
+}
+
+form p {
+    text-align: center;
+    color: rgb(167, 0, 0);
+    font-family: cursive;
+    font-size: 20px;
+}

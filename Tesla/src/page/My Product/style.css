@@ -1,0 +1,37 @@
+.error {
+    height: 90vh;
+    display: grid;
+    place-content: center;
+}
+
+.error>div {
+    text-align: center;
+    display: grid;
+    gap: 30px;
+}
+
+.error>div>div {
+    display: flex;
+    gap: 30px;
+}
+
+.error a {
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    text-decoration: underline rgb(77, 77, 77);
+    transition: 0.5s;
+}
+
+.error a:hover {
+    text-decoration: 5px underline rgb(77, 77, 77);
+    transition: 0.5s;
+}
+
+/* .error div {
+    height: 50vh;
+    color: white;
+    padding: 150px;
+    background: rgba(0, 0, 0, 0.856);
+    border: 20px solid #00E4FB;
+    border-radius: 40px;
+} */

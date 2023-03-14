@@ -1,0 +1,88 @@
+.menu {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.menu svg {
+    width: 150px;
+}
+
+.menu button {
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    transition: 0.5s;
+}
+
+.menu button:hover {
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.307);
+    transition: 0.5s;
+}
+
+.menu input:focus {
+    outline: none;
+}
+
+.menubutton {
+    display: none;
+}
+
+.black {
+    width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    background: rgba(0, 0, 0, 0.762);
+    position: absolute;
+    top: 0;
+    z-index: 80;
+}
+
+.menu100 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #FFFFFF;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    padding: 10px 10px;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.menu100 input {
+    padding: 10px;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .menunone {
+        display: none;
+    }
+
+    .menubutton {
+        display: block;
+        color: black;
+        background: rgba(0, 0, 0, 0.308);
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu100 {
+        width: 85%;
+    }
+}

@@ -1,0 +1,31 @@
+.categorymenu {
+    margin-left: 5vh;
+    display: inline-block;
+    padding: 20px;
+    border: 5px solid gray;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.385);
+}
+
+.categorymenu button {
+    margin: 0px 5px;
+}
+
+.allbycategory {
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.allbycategory:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:640px) {
+    .categorymenu {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+}

@@ -1,0 +1,71 @@
+.send {
+    width: 250px;
+}
+
+
+.send button {
+    width: 100%;
+}
+
+.send textarea {
+    height: 150px;
+    resize: none;
+}
+
+.allreview {
+    padding: 50px;
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.allreview div {
+    border-bottom: 2px solid gray;
+}
+
+
+
+.feed {
+    height: 90svh;
+    display: grid;
+    grid-template-columns: 1fr 70%;
+    margin-right: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width:1300px) {
+    .buy {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .buy button {
+        width: auto;
+    }
+
+    .feed {
+        height: auto;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .send {
+        width: 100%;
+    }
+
+    .allreview {
+        margin-bottom: 50px;
+    }
+
+    .seeproduct1 {
+        display: grid;
+        justify-content: left;
+        height: 60vh;
+        overflow-y: auto;
+    }
+
+    .seeproduct1 :nth-child(5) {
+        margin: 0;
+        width: 200px;
+    }
+}

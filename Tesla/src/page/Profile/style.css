@@ -1,0 +1,51 @@
+.profile {
+    display: grid;
+    grid-template-columns: 350px 1.5fr;
+    align-items: center;
+    height: 90vh;
+}
+
+.submenu ul {
+    display: grid;
+    gap: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 25px;
+    padding: 0px 60px;
+}
+
+.area {
+    display: grid;
+    justify-content: left;
+}
+
+.submenu ul li:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: 2px black underline;
+}
+
+@media screen and (max-width:830px) {
+    .profile {
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+
+
+    .submenu {
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        display: grid;
+        justify-content: center;
+    }
+
+    .area {
+        padding-bottom: 100px;
+        justify-content: center;
+    }
+
+    .login {
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    }
+}
